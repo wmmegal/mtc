@@ -11,7 +11,7 @@
     <body class="flex min-h-screen flex-col bg-[#f2f4f6]">
         <load ="partials/header.html" />
         <main>
-            <img src="img/bg-cta.jpg" alt="" class="hidden w-full xl:visible" width="2009" height="695" />
+            <img src="img/bg-cta.jpg" alt="" class="hidden w-full xl:block" width="2009" height="695" />
             <div class="relative">
                 <img
                     src="img/bg-green.jpg"
@@ -90,11 +90,15 @@
                 <img
                     src="img/bg-with-iphone.png"
                     alt=""
-                    class="custom-shadow hidden w-full rounded-[57px] xl:visible"
+                    class="custom-shadow hidden w-full rounded-[57px] xl:block"
                     width="1171"
                     height="409"
                 />
-                <img src="img/bg-with-iphone-mob.png" class="absolute bottom-0 left-1/2 -translate-x-1/2" alt="" />
+                <img
+                    src="img/bg-with-iphone-mob.png"
+                    class="absolute bottom-0 left-1/2 -translate-x-1/2 xl:hidden"
+                    alt=""
+                />
             </div>
             <div class="mb-10 text-center text-[30px] font-bold uppercase xl:text-4xl">Как нас найти</div>
             <img src="img/map.jpg" alt="" />
