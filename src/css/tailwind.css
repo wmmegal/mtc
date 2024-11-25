@@ -13,3 +13,21 @@
         font-style: normal;
     }
 }
+
+@layer components {
+    .btn {
+        @apply inline-flex justify-center px-5 xl:px-16 py-5 rounded-[35px] text-lg font-medium uppercase transition-all;
+
+        &.btn-black {
+            @apply bg-black text-white;
+
+            &:hover {
+                @apply bg-[#45555c];
+            }
+        }
+    }
+
+    .custom-shadow {
+        filter: drop-shadow(-3.062px -21.786px 25.5px rgba(0,0,0,0.08));
+    }
+}

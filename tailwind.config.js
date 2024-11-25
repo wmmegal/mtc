@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-        './src/**/*.{html,js}',
-    ],
+    content: ['./src/**/*.{html,js}'],
     theme: {
         container: {
             center: true,
@@ -15,9 +13,10 @@ module.exports = {
             },
         },
         colors: {
-            'primary': '#1752ca',
-            'black': '#16140f',
-            'white': '#FFFFFF',
+            primary: '#f78222',
+            secondary: '#8bc540',
+            black: '#121618',
+            white: '#FFFFFF',
         },
         extend: {
             fontSize: {
@@ -27,4 +26,3 @@ module.exports = {
     },
     plugins: [],
 };
-
