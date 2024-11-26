@@ -6,9 +6,9 @@ module.exports = {
             center: true,
             padding: '15px',
             screens: {
-                sm: '375px',
-                md: '575px',
-                lg: '767px',
+                sm: '100%',
+                md: '100%',
+                lg: '100%',
                 xl: '1200px',
             },
         },
